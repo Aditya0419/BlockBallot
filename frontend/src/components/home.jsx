@@ -31,9 +31,7 @@ const Home = () => {
             </Typography>
             <Grid container spacing={3} justifyContent="center" style={{ marginTop: '10px' }}>
                 <Grid item>
-                    <button class="btn" onClick={() => window.location.href = '/signup'}>
-                        Get Started
-                    </button>
+                    
                     <button class="btn" onClick={() => window.location.href = '/login'}>
                         Login
                     </button>
